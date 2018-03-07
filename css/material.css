@@ -11482,7 +11482,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 #a {font-family: Dulcelin;font-size: 45px;color: white;text-align: center;margin-top: 50px;}
 #alasan {background-color: #00755E;border-radius: 10px;height: 120px;width: 800px;text-align: center;margin: auto;font-size: 30px;font-family: Comic Sans ms;margin-top: 50px;color: white;padding-top: 10px;line-height: 50px;padding-right: 15px;padding-left: 15px;}
 .text {margin-left: 25px; margin-right: 25px; text-align: justify; text-indent: 40px}
-.judul {background-color: #ffff9f; text-align: center; border-radius: 70%}
+.judul {background-color: #ffff9f; text-align: center; border-radius: 70%;font-family:comic sans ms;}
 .mdl-mega-footer {background-color:#2D5DA1;color: #bcd2f4 }
 .mdl-layout__content {background: #FE6F5E;}
 .mdl-layout__header-row .mdl-navigation__link {color: black;font-family: Dulcelin;font-size: 17px;margin-top: 30px;}
