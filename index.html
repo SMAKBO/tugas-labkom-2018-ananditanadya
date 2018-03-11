@@ -6,9 +6,49 @@
   <link rel="icon" type="image/png" href="img/logo5.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-body {background: #FFF8DC;}
+.dropbtn {
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 12px;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border-bottom: 1px solid #eee;
+}
+</style>
+</head>
+<body>
+<!-- Uses a transparent header that draws on top of the layout's background -->
+<style>
+body {background-image: url(img/background2.jpg);: #FFF8DC; }
 .demo-layout-transparent {
-  background: url('img/header5.png') center / cover;
+  background: url('img/header8.png') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
@@ -20,11 +60,7 @@ body {background: #FFF8DC;}
   color: #228B32;}
 </style>
 
-</head>
-<body>
-<!-- Uses a transparent header that draws on top of the layout's background -->
-  <div style="height: 300px; width: auto;" class="demo-layout-transparent mdl-layout mdl-js-layout">
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+<div style="height: 300px; width: auto;" class="demo-layout-transparent mdl-layout mdl-js-layout">
   <header style="width: 300px" class="mdl-layout__header mdl-layout__header--transparent">
     <div class="mdl-layout__header-row" style="padding-left: 40px; padding-right: 40px; padding-top: 25px; padding-bottom: 25px">
       <!-- Title -->
@@ -34,14 +70,26 @@ body {background: #FFF8DC;}
       <!-- Navigation -->
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="index.html">Home</a>
-        <a class="mdl-navigation__link" href="Aldehyde_lutfiah.html">Aldehyde</a>
-        <a class="mdl-navigation__link" href="Historycinnamaldehyde_silmi.html"> Brief History</a>
-        <a class="mdl-navigation__link" href="Identity_rialfi.html">Identify</a>
-        <a class="mdl-navigation__link" href="synthesis_dzaki.html">Synthesis</a>
+        <a class="mdl-navigation__link" href="Aldehyde_lutfiah.html">Aldehyde & Aromatic</a>
+        <div class="dropdown">
+          <a class="dropbtn mdl-navigation__link">Cinnamaldehyde</a>
+            <div class="dropdown-content">
+              <a href="Historycinnamaldehyde_silmi.html">Brief History</a>
+              <a href="Identity_rialfi.html">Identify</a>
+              <a href="synthesis_dzaki.html">Synthesis</a>
+            </div>
+        </div>
+        <img id="logo" src="img/logo5.png">
         <a class="mdl-navigation__link" href="whereitcanbefound_hamjul.html">Where It Can Be Found</a>
         <a class="mdl-navigation__link" href="application_umair.html">Applications</a>
-        <a class="mdl-navigation__link" href="Safetyandhazard_awanda.html">Dangerous</a>
-        
+        <div class="dropdown">
+  		    <a class="dropbtn mdl-navigation__link">Other</a>
+  		      <div class="dropdown-content">
+   		         <a href="Safetyandhazard_awanda.html">Dangerous</a>
+              <a href="Safetyandhazard_awanda.html">Bibliography</a>
+              <a href="getintouch.html">Get In Touch</a>
+  		      </div>
+		    </div>
       </nav>
     </div>
   </header>
@@ -50,12 +98,25 @@ body {background: #FFF8DC;}
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="index.html">Home</a>
       <a class="mdl-navigation__link" href="Aldehyde_lutfiah.html">Aldehyde</a>
-      <a class="mdl-navigation__link" href="Historycinnamaldehyde_silmi.html">Brief History</a>
-      <a class="mdl-navigation__link" href="Identity_rialfi.html">Identify</a>
-      <a class="mdl-navigation__link" href="synthesis_dzaki.html">Synthesis</a>
+      <div class="dropdown">
+          <a class="dropbtn mdl-navigation__link">Cinnamaldehyde</a>
+            <div class="dropdown-content">
+              <a href="Historycinnamaldehyde_silmi.html">Brief History</a>
+              <a href="Identity_rialfi.html">Identify</a>
+              <a href="synthesis_dzaki.html">Synthesis</a>
+            </div>
+        </div>
+      <img id="logo" src="img/logo5.png">
       <a class="mdl-navigation__link" href="whereitcanbefound_hamjul.html">Where It Can Be Found</a>
       <a class="mdl-navigation__link" href="application_umair.html">Applications</a>
-      <a class="mdl-navigation__link" href="Safetyandhazard_awanda.html">Dangerous</a>
+      <div class="dropdown">
+      <a class="dropbtn mdl-navigation__link">Other</a>
+      <div class="dropdown-content">
+       <a href="Safetyandhazard_awanda.html">Dangerous</a>
+        <a href="Safetyandhazard_awanda.html">Bibliography</a>
+        <a href="getintouch.html">Get In Touch</a>
+      </div>
+    </div>
     </nav>
   </div>
 </div>
