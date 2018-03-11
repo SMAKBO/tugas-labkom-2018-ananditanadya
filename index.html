@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CINNAMALDEHYDE</title>
+  <link rel="stylesheet" type="text/css" href="css/material.css">
+  <link rel="icon" type="image/png" href="img/logo5.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+.dropbtn {
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 12px;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border-bottom: 1px solid #eee;
+}
+</style>
+</head>
+<body>
+<!-- Uses a transparent header that draws on top of the layout's background -->
+<style>
+body {background-image: url(img/background2.jpg);: #FFF8DC;}
+.demo-layout-transparent {
+  background: url('img/header8.png') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: #228B32 ;height: 130px; margin-top: 100px;font-size: 25px;
+}
+.demo-layout-transparent .mdl-navigation {
+  color: #228B32;}
+</style>
+
+<div style="height: 260px;" class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header style="width: 300px" class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row" style="padding-left: 40px;">
+      <!-- Title -->
+      <span class="mdl-layout-title"></span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="Aldehyde_lutfiah.html">Aldehyde & Aromatic</a>
+        <div class="dropdown">
+          <a class="dropbtn mdl-navigation__link">Cinnamaldehyde</a>
+            <div class="dropdown-content">
+              <a href="Historycinnamaldehyde_silmi.html">Brief History</a>
+              <a href="Identity_rialfi.html">Identify</a>
+              <a href="synthesis_dzaki.html">Synthesis</a>
+            </div>
+        </div>
+        <img id="logo" src="img/logo5.png">
+        <a class="mdl-navigation__link" href="whereitcanbefound_hamjul.html">Where It Can Be Found</a>
+        <a class="mdl-navigation__link" href="application_umair.html">Applications</a>
+        <div class="dropdown">
+          <a class="dropbtn mdl-navigation__link">Other</a>
+            <div class="dropdown-content">
+               <a href="Safetyandhazard_awanda.html">Dangerous</a>
+              <a href="bibliography.html">Bibliography</a>
+              <a href="getintouch.html">Get In Touch</a>
+            </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="index.html">Home</a>
+      <a class="mdl-navigation__link" href="Aldehyde_lutfiah.html">Aldehyde</a>
+      <div class="dropdown">
+          <a class="dropbtn mdl-navigation__link">Cinnamaldehyde</a>
+            <div class="dropdown-content">
+              <a href="Historycinnamaldehyde_silmi.html">Brief History</a>
+              <a href="Identity_rialfi.html">Identify</a>
+              <a href="synthesis_dzaki.html">Synthesis</a>
+            </div>
+        </div>
+      <img id="logo" src="img/logo5.png">
+      <a class="mdl-navigation__link" href="whereitcanbefound_hamjul.html">Where It Can Be Found</a>
+      <a class="mdl-navigation__link" href="application_umair.html">Applications</a>
+      <div class="dropdown">
+      <a class="dropbtn mdl-navigation__link">Other</a>
+      <div class="dropdown-content">
+       <a href="Safetyandhazard_awanda.html">Dangerous</a>
+        <a href="bibliography.html">Bibliography</a>
+        <a href="getintouch.html">Get In Touch</a>
+      </div>
+    </div>
+    </nav>
+  </div>
+</div>
+</body>
+<body>
+	<div>
+
+<div class="slideshow-container" style="margin-top: 50px">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/orchem3.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/orchem4.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/orchem7.png" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	</div>
+<div>
+      <h1 align="center"><img src="img/judulhome.png"></h1>
+    </div>
+<div id="dasar">
+<h3 class="judul" align="center"><strong>History of Organic Chemistry</strong></h3>
+<h4 align="center"> <strong><u>1780's</u></strong>  </h4>
+<p class="text" id="home">
+    Scientist began to distinguish between organic compounds and inorganic compounds. <strong>Organic compounds</strong> were defined as compounds that could be obtained <u>from living organisms</u>. <strong>Inorganic compounds</strong> were defined as compounds that came from non-living sources.
+</p>
+<h4 align="center"> <strong><u>Vitalism</u></strong>  </h4>
+<p class="text" id="home">
+  The invention of a <strong>VITAL FORCE</strong> was needed to synthesize organic compounds. Therefore such synthesises could only take place in living organism and <u>could not be placed in the test tubes and flasks of the laboratory.</u>
+</p>
+<p class="text" id="home">
+  <strong><i>VITAL FORCE THEORY =</i></strong> inorganic materials could be converted to organic materials in the presence of a vital force found only in living bodies.
+</p>
+<h4 align="center"> <strong><u>1828 - Friedrich Wöhler</u></strong>  </h4>
+<p class="text" id="home">
+  He synthesized the organic compound urea (a constituent of urine). Urea was synthesized by evaporating an aqueous solution containing the inorganic compound ammonium cyanate.
+</p>
+<h4 align="center"> <strong><u>1828 - 1850</u></strong>  </h4>
+<p class="text" id="home">
+  A number of clearly organic substances were synthesized from sources that were clearly inorganic. Vitalism died slowly and did not completely dissapear from scientific circles until 1850. August Kekule gave the science of organic chemistry its modern definition.
+</p>
+
+<h3 class="judul" align="center"><strong>Definition of Organic Chemistry</strong></h3>
+<p class="text" id="home">
+  <strong>Organic Chemistry</strong> <i>is defined as the study of hydrocarbons (binary compounds of hydrogen and carbon) and their derivatives.</i> <strong>Organic Compounds</strong> are compounds that have exhibit covalent bonding, low melting point, low boiling point, low solubility in water; high solubility in non polar solvent, it is flammable, the solutions are non-conductors of electricity. Chemical reaction are usually slow, it has exhibit isomerism.
+</p>
+<h3 class="judul" align="center"><strong>Families of Organic Compounds</strong></h3>
+<p class="text" id="home">
+  There are many kinds of Organic Compound Families. Some of them are Alkene, Arene, Alkyl Halide, Alcohol, Ether, Aldehyde, Ketone, Carboxylic Acid, Ester, Amine, Amide, Nitrile, Carboxylic Acid Halide, Carboxylic Acid Anhydride, Thiol, Sulfide. 
+</p>
+<table>
+  <tr>
+    <th>Family Name</th>
+    <th>General Formula</th>
+    <th>Functional Group</th>
+  </tr>
+  <tr>
+    <td>Alkenes</td>
+    <td>R-CH=CH<sub>2</sub></td>
+    <td>>C=C<</td>
+  </tr>
+  <tr>
+    <td>Alkynes</td>
+    <td>R-C≡CH</td>
+    <td>-C≡C-</td>
+  </tr>
+  <tr>
+    <td>Alkyl Halides/Haloalkane</td>
+    <td>R-CH<sub>2</sub>-X</td>
+    <td>-CH<sub>2</sub>-X</td>
+  </tr>
+  <tr>
+    <td>Alcohol/Alkanol</td>
+    <td>R-CH<sub>2</sub>-OH</td>
+    <td>-CH<sub>2</sub>-OH</td>
+  </tr>
+  <tr>
+    <td>Ether</td>
+    <td>R-O-R</td>
+    <td>-C-O-C</td>
+  </tr>
+  <tr>
+    <td><strong>Aldehyde/Alkanal</strong></td>
+    <td><strong>RCHO</strong></td>
+    <td><strong>-C=O</strong></td>
+  </tr>
+  <tr>
+    <td>MANY MORE...</td>
+    <td>MANY MORE...</td>
+    <td>MANY MORE...</td>
+  </tr>
+</table>
+<p class="text">
+  But now, we will only discuss about <strong>ALDEHYDE & AROMATIC</strong>, do you wanna know more about it??
+</p>
+<div>
+		<!-- Square card -->
+<style>
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+  margin-left: 275px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('img/judulaldehyde2.png') bottom right 15% no-repeat #46B6AC;
+}
+</style>
+
+<div class="demo-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text">ALDEHYDE AND AROMATIC</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Aldehyde is a carbonyl group that....
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="Aldehyde_lutfiah.html">
+      Read more...
+    </a>
+  </div>
+</div>
+	</div>
+</div>
+
+</body>
+<footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Designer</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="https://lutfiahdramadha.github.io/">Lutfiah Dwi Ramadhanti</a></li>
+        <li><a href="https://rialfiputri.github.io/">Rialfi Putri Nur Harfilani</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Writer</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="https://">Silmi Reke Fauziyah</a></li>
+        <li><a href="https://awandasuciw.github.io/">Awanda Suci Wulandari</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Programmer</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="https://zeki8.github.io/">Maulana Dzaki Munawar</a></li>
+        <li><a href="https://umairrrr.github.io/">Umair</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Research</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="https://ananditanadya.github.io/">Nadya Ayu Anandita (Team Coordinator)</a></li>
+        <li><a href="https://">Ilham Zulfa Ghafara</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="mdl-mega-footer__bottom-section">
+    <div class="mdl-logo">HOMEPAGE</div>
+    <ul class="mdl-mega-footer__link-list">
+      <li>is made by Nadya Ayu Anandita</li>
+      <li>6<sup>th</sup> of March, 2018</li>
+    </ul>
+  </div>
+
+</footer>
+</html>
